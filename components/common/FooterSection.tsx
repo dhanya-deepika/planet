@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Phone, MapPin } from "lucide-react";
-import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 
 export default function FooterCompleteSection() {
   return (
