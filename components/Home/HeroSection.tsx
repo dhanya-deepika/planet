@@ -24,7 +24,8 @@ export default function HeroSection() {
         }
       `}</style>
 
-      <section className={"${lufga.className} relative bg-white overflow-hidden w-full min-h-screen pb-0 md:pb-20"}>
+      <section   className={`${lufga?.className} relative bg-white overflow-hidden w-full min-h-screen pb-0 md:pb-20`}
+>
         {/* Use full Navbar on md+ only, show a compact mobile topbar for smaller screens */}
         <div className="hidden md:block">
           <Navbar />
