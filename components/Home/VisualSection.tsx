@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function VisualStoriesSection() {
-  const [hoveredTab, setHoveredTab] = useState(null);
+  const [hoveredTab, setHoveredTab] = useState<string | null>(null);
 
   const tabs = [
     "Dates County",
@@ -38,7 +38,6 @@ export default function VisualStoriesSection() {
           ))}
         </div>
       </div>
-  
     </section>
   );
 }
