@@ -2,12 +2,8 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 import Navbar from "../common/navbar";
-import localFont from "next/font/local";
 
-const lufga = localFont({
-  src: "/fonts/Lufga-Regular.woff2",
-  weight: "400",
-});
+
 
 
 export default function HeroSection() {
