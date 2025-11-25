@@ -132,13 +132,19 @@ export default function AwardsSection() {
             bulletActiveClass: "custom-bullet-active",
           }}
           onInit={(swiper) => {
-            if (typeof swiper.params.navigation !== "boolean") {
-              swiper.params.navigation.prevEl = prevRef.current;
-              swiper.params.navigation.nextEl = nextRef.current;
-              swiper.navigation.init();
-              swiper.navigation.update();
+            const nav = swiper.params.navigation;
+
+            if (nav && typeof nav !== "boolean") {
+              nav.prevEl = prevRef.current;
+              nav.nextEl = nextRef.current;
+
+              if (swiper.navigation) {
+                swiper.navigation.init();
+                swiper.navigation.update();
+              }
             }
           }}
+
           breakpoints={{
             320: { slidesPerView: 1.1, spaceBetween: 20 },
             768: { slidesPerView: 2.1, spaceBetween: -60 },
