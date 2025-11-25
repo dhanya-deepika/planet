@@ -5,7 +5,7 @@ import Navbar from "../common/navbar";
 import localFont from "next/font/local";
 
 const lufga = localFont({
-  src: "../../public/fonts/Lufga-Regular.otf",
+  src: "../../public/fonts/Lufga-Regular.woff2",
   weight: "400",
 });
 
