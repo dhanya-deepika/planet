@@ -80,7 +80,7 @@ export default function FooterCompleteSection() {
           </p>
 
           <div className="flex items-center gap-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200"><FaFacebookF /></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200"><FaFacebook /></a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200"><FaInstagram /></a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200"><FaYoutube /></a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-200"><FaLinkedinIn /></a>
